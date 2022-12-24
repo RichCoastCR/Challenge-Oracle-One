@@ -26,4 +26,4 @@ El resultado debe ser mostrado en la pantalla.
 
 ## Proyecto
 
--[Reto 1 Alura Latam - Oracle Next One] (https://onfevs.github.io/Encriptador/).
+-[Reto 1 Alura Latam - Oracle Next One] (https://github.com/arcesoftware/alura).
