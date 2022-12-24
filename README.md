@@ -2,7 +2,7 @@
 
 Encriptador de mensajes
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+Las "llaves" de encriptación que utilizamos son las siguientes:
 
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
@@ -20,8 +20,7 @@ Por ejemplo:
 "gato" => "gaitober"
 gaitober" => "gato"
 
-La página debe tener campos para
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 El resultado debe ser mostrado en la pantalla.
 
 ## Proyecto
