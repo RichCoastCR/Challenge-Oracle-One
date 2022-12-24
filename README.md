@@ -1,26 +1,26 @@
-# Descifrador-Challenge-Oracle-Next-One
+# Descifrador-Alura-Challenge-Oracle-Next-One
 
-Encriptador de mensajes
+Descifrador de mensajes
 
-Las "llaves" de encriptación que utilizamos son las siguientes:
+Las "llaves" de cifrado que usamos son las siguientes:
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+La letra "e" es cifrada "enter"
+La letra "i" es cifrada "imes"
+La letra "a" es cifrada "ai"
+La letra "o" es cifrada "ober"
+La letra "u" es cifrada "ufat"
 
 Requisitos:
 
 - Debe funcionar solo con letras minúsculas
 - No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión cifrada también devolver una palabra descifrada para su versión original.
+- Debe ser posible cifrar una palabra y también devolver una palabra ya cifrada a su versión original.
 
 Por ejemplo:
 "gato" => "gaitober"
 gaitober" => "gato"
 
-La página debe tener campos para inserción del texto que será cifrado o desifrado, y el usuario debe poder escoger entre as dos opciones.
+La página debe tener campos para inserción del texto que será cifrado o desifrado, y el usuario debe poder escoger entre las dos opciones.
 El resultado debe ser mostrado en la pantalla.
 
 ## Proyecto
