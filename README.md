@@ -26,4 +26,4 @@ El resultado debe ser mostrado en la pantalla.
 
 ## Proyecto
 
--[Reto 1 Alura Latam - Oracle Next One] (https://github.com/arcesoftware/alura).
+[Reto 1 Alura Latam - Oracle Next One Realizado en Costa Rica por Juan Arce de Arce Software en Diciembre del 2022] (https://github.com/arcesoftware/alura).
