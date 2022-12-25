@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.png binary
+*.txt eol=crlf
+*.txt ident
+*.txt merge=text
+*.json text
+
+
