@@ -1,9 +1,9 @@
 # 🔏 Encriptador de texto
 
-<div align="center"><img src="img/logo.svg" width="64"/></div>
 <p align="center" >
      <img width="500" heigth="300" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
 </p>
+
 ---
 
 ## 💡 Descripción
