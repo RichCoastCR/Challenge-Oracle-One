@@ -1,4 +1,4 @@
-# 🔏 Encriptador de texto
+# 🔏 Descifrador de texto - Juan Arce - Costa Rica - Arce Software
 
 <p align="center" >
      <img width="1352" heigth="766" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
