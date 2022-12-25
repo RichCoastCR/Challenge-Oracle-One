@@ -7,23 +7,22 @@ var msjFinal = document.querySelector("#resultado"); /*text area de resultado*/
 
 /*Funcion encriptar*/
 function msjEncriptar(txt) {
-    if (txt == "a") {
-        txt = "ia";
-        return txt;
-    } else if (txt == "e") {
-        txt = "enter";
-        return txt;
-    } else if (txt == "i") {
-        txt = "imes";
-        return txt;
-    } else if (txt == "o") {
-        txt = "ober";
-        return txt;
-    } else if (txt == "u") {
-        txt = "ufat";
+    switch (txt) {
+      case 'a':
+        return 'ia';
+      case 'e':
+        return 'enter';
+      case 'i':
+        return 'imes';
+      case 'o':
+        return 'ober';
+      case 'u':
+        return 'ufat';
+      default:
         return txt;
     }
-}
+  }
+  
 
 function encriptar(txt) {
     var msjEncriptado = txt.replace(/a|e|i|o|u/g, msjEncriptar); /*reemplaza las letras introducidas por la funcion msjEncriptar*/
@@ -38,40 +37,28 @@ function encriptar(txt) {
 }
 
 /*funcion desencriptar*/
-
 function msjDesencriptar(txt) {
-    if (txt == "ia") {
-        txt = "a";
-        return txt;
-    } else if (txt == "enter") {
-        txt = "e";
-        return txt;
-    } else if (txt == "imes") {
-        txt = "i";
-        return txt;
-    } else if (txt == "ober") {
-        txt = "o";
-        return txt;
-    } else if (txt == "ufat") {
-        txt = "u";
+    switch (txt) {
+      case 'ia':
+        return 'a';
+      case 'enter':
+        return 'e';
+      case 'imes':
+        return 'i';
+      case 'ober':
+        return 'o';
+      case 'ufat':
+        return 'u';
+      default:
         return txt;
     }
-    var encrypted = CryptoJS.RC4Drop.encrypt("textarea", "Secret Passphrase");
-
-    var encrypted = CryptoJS.RC4Drop.encrypt("Mestextareasage", "Secret Passphrase", {
-        drop: 3072 / 4
-    });
-    var decrypted = CryptoJS.RC4Drop.decrypt(encrypted, "Secret Passphrase", {
-        drop: 3072 / 4
-    });
-}
-
-function desencriptar(txt) {
-    var msjDesencriptado = txt.replace(/ia|enter|imes|ober|ufat/g, msjDesencriptar);
+  }
+  
+  function desencriptar(txt) {
+    let msjDesencriptado = txt.replace(/ia|enter|imes|ober|ufat/g, msjDesencriptar);
     if (txt === msjEncriptar) return msjFinal
     else return msjDesencriptado;
-}
-
+  }
 
 btnEncriptar.addEventListener("click", function (event) {
     event.preventDefault();
@@ -94,3 +81,49 @@ btnCopiar.addEventListener("click", function (event) {
     msjFinal.select();
     navigator.clipboard.writeText(msjFinal.value);
 });
+
+function toggleElementVisibility(elementId, shouldShow) {
+  const element = document.getElementById(elementId);
+  if (shouldShow) {
+    element.style.display = 'block';
+  } else {
+    element.style.display = 'none';
+  }
+}
+function toggleElementVisibility(elementId, shouldShow) {
+    const element = document.getElementById(elementId);
+    if (shouldShow) {
+      element.style.display = 'block';
+    } else {
+      element.style.display = 'none';
+    }
+  }
+  
+  btnEncriptar.addEventListener("click", function (event) {
+    event.preventDefault();
+    var txt = msj.value;
+    var msjSeguro = encriptar(txt);
+    msjFinal.value = msjSeguro;
+    console.log(msjSeguro);
+    toggleElementVisibility('ocultar', false);
+    toggleElementVisibility('resultado', true);
+    toggleElementVisibility('copiar', true);
+  });
+  
+  btnDesencriptar.addEventListener("click", function (event) {
+    event.preventDefault();
+    var txt = msj.value;
+    var msjSeguro = desencriptar(txt);
+    msjFinal.value = msjSeguro;
+    console.log(msjSeguro);
+    toggleElementVisibility('ocultar', false);
+    toggleElementVisibility('resultado', true);
+    toggleElementVisibility('copiar', true);
+  });
+  
+  btnCopiar.addEventListener("click", function (event) {
+    event.preventDefault();
+    msjFinal.select();
+    navigator.clipboard.writeText(msjFinal.value);
+  });
+  

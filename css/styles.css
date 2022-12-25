@@ -57,10 +57,10 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateX(-50%);
+    margin-bottom: 2px;
     font-size: 40px;
     font-weight: bold;
     color: #0a3871;
-    border-bottom: 1px solid #0a3871;
 }
 
 .contenedor1 {
