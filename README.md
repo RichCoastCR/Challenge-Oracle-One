@@ -13,8 +13,6 @@
     <img src="https://img.shields.io/badge/CSS-5A5A5A?logo=css3&logoColor=01A3D8" />
 </div>
 
---
-
 ## 🔗Links
 
 Pagina : [Github-Pages](https://github.com/arcesoftware/Challenge-Oracle-One)
