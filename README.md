@@ -13,39 +13,39 @@
     <img src="https://img.shields.io/badge/CSS-5A5A5A?logo=css3&logoColor=01A3D8" />
 </div>
 
----
+--
 
-## 💡 Descripción
+## 🔗Links
 
-Encriptador de texto desarrollado con JavaScript, HTML y CSS para el challenge del **_Proyecto ONE_** de **Oracle+Alura LATAM**.
+Pagina : [Github-Pages](https://github.com/arcesoftware/Challenge-Oracle-One)
 
-El desafio consiste en construir una pagina web que encripte y desencripte texto que sera ingresado por el usuario y presentarlo en su forma encriptada o desencriptada, el objetivo de este desafio es poner a prueba los conocimientos adquiridos durante el curso "Principiante en programación"
+## 📃Resume del projecto
 
----
+Este es el primer Challenge del programa ONE - Oracle Next Education. Esta aplicación tiene la función de codificar y decodificar mensajes de texto de forma sencilla. Con el objetivo de intercambiar información con otras personas de una manera segura y divertida.
 
-## 🔑 Llaves de encriptacion
+## 🔑Llaves de encriptacion
 
-Las llaves de encriptacion solicitadas son las siguientes:
+Las "llaves" de encriptación que se utilizaron son las siguiente:
 
-- La letra "**a**" es convertida a "**ai**".
-- La letra "**e**" es convertida a "**enter**".
-- La letra "**i**" es convertida a "**imes**".
-- La letra "**o**" es convertida a "**ober**"
-- La letra "**u**" es convertida a "**ufat**"
+- La letra **"e"** es convertida para **"enter"**
+- La letra **"i"** es convertida para **"imes"**
+- La letra **"a"** es convertida para **"ai"**
+- La letra **"o"** es convertida para **"ober"**
+- La letra **"u"** es convertida para **"ufat"**
 
----
+**Aplica también a la inversa**
 
-## ✔️ Requisitos
+## 📋Requisitos:
 
 - Debe funcionar solo con letras minúsculas.
 - No deben ser utilizados letras con acentos ni caracteres especiales.
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia.
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+- La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- El resultado debe ser mostrado en la pantalla.
 
-```
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
-```
+` Por ejemplo: "gato" => "gaitober" "gaitober" => "gato"`
+
 
 - La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 - El resultado debe ser mostrado en la pantalla.
@@ -53,6 +53,7 @@ gaitober" => "gato"
 ### Extras:
 
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
 
 
 [Reto 1 Alura Latam - Oracle Next One Realizado en Costa Rica por Juan Arce de Arce Software en Diciembre del 2022] (https://github.com/arcesoftware/Challenge-Oracle-One)
