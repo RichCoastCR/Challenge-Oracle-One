@@ -1,4 +1,4 @@
-# 🔏 Descifrador de texto - Juan Arce 
+# 🔏 Descifrador de texto - RICH COAST
 
 <p align="center" >
      <img width="1352" heigth="766" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
