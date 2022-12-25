@@ -1,7 +1,7 @@
 # 🔏 Encriptador de texto
 
 <p align="center" >
-     <img width="500" heigth="300" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
+     <img width="1352" heigth="766" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
 </p>
 
 ---
