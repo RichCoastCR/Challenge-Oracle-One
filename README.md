@@ -1,7 +1,7 @@
 <div align="center"><img src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/watermark.png" width="200"/></div>
 <div align="center"><img src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/insignia.png" width="100"/></div>
 
-# 🔏 Descifrador de texto - RICH COAST
+# 🔏 Descifrador de texto
 
 <p align="center" >
      <img width="1352" heigth="766" src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/screen.JPG">
