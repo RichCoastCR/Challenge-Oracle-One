@@ -46,4 +46,4 @@ gaitober" => "gato"
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
 
-[Reto 1 Alura Latam - Oracle Next One Realizado en Costa Rica por Juan Arce de Arce Software en Diciembre del 2022] (https://github.com/arcesoftware/alura)
+[Reto 1 Alura Latam - Oracle Next One Realizado en Costa Rica por Juan Arce de Arce Software en Diciembre del 2022] (https://github.com/arcesoftware/Challenge-Oracle-One)
