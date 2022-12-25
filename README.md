@@ -1,5 +1,5 @@
 <div align="center"><img src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/Logo.png" width="200"/></div>
-<div align="center"><img src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/richcoast.logo.jpg" width="100"/></div>
+<div align="center"><img src="https://github.com/arcesoftware/Challenge-Oracle-One/blob/main/img/insignia.png" width="10"/></div>
 
 # 🔏 Descifrador de texto - RICH COAST
 
