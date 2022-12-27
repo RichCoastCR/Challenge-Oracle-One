@@ -15,7 +15,7 @@
 
 ## 🔗Links
 
-Pagina : [Github-Pages](https://github.com/arcesoftware/Challenge-Oracle-One)
+Pagina : [Github-Pages](https://arcesoftware.github.io/Challenge-Oracle-One/)
 
 ## 📃Resume del projecto
 
